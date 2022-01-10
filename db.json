@@ -1,6 +1,5 @@
 {
-    "dashboard": {
-        "mtd": {
+    "dashboard": [{
             "deals": {
                 "inUw": "20",
                 "pending": "10",
@@ -16,9 +15,10 @@
             "transactionCount": "28133",
             "refunds": "61606",
             "chargebacks": "5986",
-            "currentResiduals": "605986"
+            "currentResiduals": "605986",
+            "date": "mtd"
         },
-        "lastMonth": {
+        {
             "deals": {
                 "inUw": "10",
                 "pending": "5",
@@ -34,10 +34,8 @@
             "transactionCount": "26123",
             "refunds": "45822",
             "chargebacks": "4300",
-            "currentResiduals": "498533"
+            "currentResiduals": "498533",
+            "date": "lastMonth"
         }
-
-
-
-    }
+    ]
 }
