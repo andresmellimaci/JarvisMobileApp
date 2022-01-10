@@ -1,41 +1,289 @@
 {
     "dashboard": [{
             "deals": {
-                "inUw": "20",
-                "pending": "10",
-                "approved": "5",
-                "declined": "2"
+                "inUw": 20,
+                "pending": 10,
+                "approved": 5,
+                "declined": 2
             },
             "merchants": {
-                "total": "235",
-                "active": "208",
-                "inactive": "27"
+                "total": 235,
+                "active": 208,
+                "inactive": 27
             },
-            "totalVolume": "50975,42",
-            "transactionCount": "28133",
-            "refunds": "61606",
-            "chargebacks": "5986",
-            "currentResiduals": "605986",
+            "totalVolume": 50975.42,
+            "transactionCount": 28133,
+            "refunds": 61606,
+            "chargebacks": 5986,
+            "currentResiduals": 605986,
             "date": "mtd"
         },
         {
             "deals": {
-                "inUw": "10",
-                "pending": "5",
-                "approved": "2",
-                "declined": "1"
+                "inUw": 10,
+                "pending": 5,
+                "approved": 2,
+                "declined": 1
             },
             "merchants": {
-                "total": "230",
-                "active": "195",
-                "inactive": "22"
+                "total": 230,
+                "active": 195,
+                "inactive": 22
             },
-            "totalVolume": "42381,20",
-            "transactionCount": "26123",
-            "refunds": "45822",
-            "chargebacks": "4300",
-            "currentResiduals": "498533",
-            "date": "lastMonth"
+            "totalVolume": 42381.20,
+            "transactionCount": 26123,
+            "refunds": 45822,
+            "chargebacks": 4300,
+            "currentResiduals": 498533,
+            "date": "lastmonth"
+        },
+        {
+            "deals": {
+                "inUw": 6,
+                "pending": 3,
+                "approved": 2,
+                "declined": 1
+            },
+            "merchants": {
+                "total": 150,
+                "active": 100,
+                "inactive": 15
+            },
+            "totalVolume": 82523.12,
+            "transactionCount": 38953,
+            "refunds": 50234,
+            "chargebacks": 7500,
+            "currentResiduals": 864233,
+            "date": "60days"
         }
-    ]
+    ],
+
+
+    "dealsCount": {
+        "prospects": 4,
+        "applicationSent": 8,
+        "applicationReceived": 12,
+        "withdraw": 0,
+
+        "unclaimed": 7,
+        "inStandard": 9,
+        "inSenior": 18,
+        "pendingApps": 6,
+        "autoApprovedApps": 6,
+        "approved": 23,
+
+        "unclaimedByInstall": 9,
+        "pendingInstall": 8,
+        "deployed": 3,
+        "completed": 5,
+        "complianceReview": 12,
+        "declined": 2
+    },
+
+
+    "merchants": [{
+            "dba": "Latins Fit LLC",
+            "mid": "524633455",
+            "owner": "Marc Tenore",
+            "status": "Active"
+        },
+        {
+            "dba": "Choice",
+            "mid": "524633434",
+            "owner": "Danielle Lawerence",
+            "status": "Active"
+        },
+        {
+            "dba": "Golf Course",
+            "mid": "524633952",
+            "owner": "Travis Price",
+            "status": "Inactive"
+        },
+        {
+            "dba": "Pizza Chef",
+            "mid": "524633116",
+            "owner": "Marc Tenore",
+            "status": "Active"
+        },
+        {
+            "dba": "Ink Nation",
+            "mid": "524633961",
+            "owner": "James Lawerence",
+            "status": "Active"
+        },
+        {
+            "dba": "Clothing Popup",
+            "mid": "524633005",
+            "owner": "Marc Tenore",
+            "status": "Inactive"
+        },
+        {
+            "dba": "Choice Funding",
+            "mid": "524638853",
+            "owner": "Daniel Sayad",
+            "status": "Active"
+        }
+    ],
+
+
+    "merchantDetail": {
+        "dba": "Latins Fit LLC",
+        "address": "123 main st rd, Walnut Shade",
+        "suit": "test123",
+        "zip": "32536",
+        "city": "Gulf Breeze",
+        "state": "FL",
+        "salesAgent": "McGilcuddy, Danielle",
+        "salesManager": "McGilcuddy, Danielle",
+        "regionalManager": "McGilcuddy, Danielle",
+        "productType": "Retail",
+        "monthlyProjectedVolume": 150,
+
+        "statistics": {
+            "lastBatchDate": "2021/04/28 03:30PM",
+            "firstBatchDate": "2021/04/26 03:30PM",
+            "monthToDateVolume": 5,
+            "lastMonthVolume": 5030,
+            "last6MonthsVolume": 28563,
+            "lastMonthResiduals": 4600,
+            "profitCalculated": 10400
+        },
+
+        "contact": {
+            "name": "Test, Danielle",
+            "email": "daniellenicolelawrence@test.com",
+            "phone": "850-225-3055"
+        },
+
+        "tickets": [{
+                "date": "10/21/2021",
+                "name": "Ticket - DBA Name",
+                "status": "Pending"
+            },
+            {
+                "date": "10/16/2021",
+                "name": "Note - DBA Name",
+                "status": "Closed"
+            },
+            {
+                "date": "10/09/2021",
+                "name": "Note - DBA Name",
+                "status": "Pending"
+            },
+            {
+                "date": "09/29/2021",
+                "name": "Ticket - DBA Name",
+                "status": "Pending"
+            },
+            {
+                "date": "09/15/2021",
+                "name": "Note - DBA Name",
+                "status": "Closed"
+            }
+        ]
+    },
+
+
+    "tickets": [{
+            "date": "10/21/2021",
+            "name": "Ticket - DBA Name",
+            "status": "Pending"
+        },
+        {
+            "date": "10/16/2021",
+            "name": "Note - DBA Name",
+            "status": "Closed"
+        },
+        {
+            "date": "10/09/2021",
+            "name": "Note - DBA Name",
+            "status": "Pending"
+        },
+        {
+            "date": "09/29/2021",
+            "name": "Ticket - DBA Name",
+            "status": "Pending"
+        },
+        {
+            "date": "09/15/2021",
+            "name": "Note - DBA Name",
+            "status": "Closed"
+        }
+    ],
+
+
+    "ticketDetail": {
+        "ticketNumber": "10254234",
+        "date": "10/21/2021",
+        "dba": "Berkins Blend Cafe",
+        "mid": "6304034910395",
+        "status": "Pending",
+
+        "notes": [{
+                "date": "2 hours ago",
+                "description": "When the top app bar scrolls, its elevation above..."
+            },
+            {
+                "date": "3 hours ago",
+                "description": "The top app bar disappears upon scrolling up..."
+            },
+            {
+                "date": "8 weeks ago",
+                "description": "When the top app bar scrolls, its elevation above other elements becomes apparent..."
+            }
+        ]
+    },
+
+
+    "ticketReasons": [{
+            "id": 1,
+            "description": "Customer Service - Risk Request to Contact"
+        },
+        {
+            "id": 2,
+            "description": "Customer Service - Chargebacks"
+        },
+        {
+            "id": 3,
+            "description": "Customer Service - PCI Compliance"
+        },
+        {
+            "id": 4,
+            "description": "Risk - Release Reserve"
+        },
+        {
+            "id": 5,
+            "description": "Merchant Portal Ticket"
+        }
+    ],
+
+
+    "residuals": {
+        "netResidualAfterAdj": 605896,
+        "netResidual": 805930,
+        "adjustments": 25932,
+        "totalMerchant": 1113,
+        "totalGrossVolume": 61606,
+        "totalTransaction": 605986
+    },
+
+
+    "appLinks": [{
+            "id": "10298478",
+            "name": "applink name"
+        },
+        {
+            "id": "284775",
+            "name": "test applink"
+        },
+        {
+            "id": "730934",
+            "name": "applink 1023"
+        }
+    ],
+
+
+    "callUs": {
+        "phone": "800-222-2323"
+    }
 }
