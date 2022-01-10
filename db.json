@@ -1,20 +1,43 @@
 {
     "dashboard": {
-        "deals": {
-            "inUw": "20",
-            "pending": "10",
-            "approved": "5",
-            "declined": "2"
+        "mtd": {
+            "deals": {
+                "inUw": "20",
+                "pending": "10",
+                "approved": "5",
+                "declined": "2"
+            },
+            "merchants": {
+                "total": "235",
+                "active": "208",
+                "inactive": "27"
+            },
+            "totalVolume": "50975,42",
+            "transactionCount": "28133",
+            "refunds": "61606",
+            "chargebacks": "5986",
+            "currentResiduals": "605986"
         },
-        "merchants": {
-            "total": "235",
-            "active": "208",
-            "inactive": "27"
-        },
-        "totalVolume": "50975,42",
-        "transactionCount": "28133",
-        "refunds": "61606",
-        "chargebacks": "5986",
-        "currentResiduals": "605986"
+        "lastMonth": {
+            "deals": {
+                "inUw": "10",
+                "pending": "5",
+                "approved": "2",
+                "declined": "1"
+            },
+            "merchants": {
+                "total": "230",
+                "active": "195",
+                "inactive": "22"
+            },
+            "totalVolume": "42381,20",
+            "transactionCount": "26123",
+            "refunds": "45822",
+            "chargebacks": "4300",
+            "currentResiduals": "498533"
+        }
+
+
+
     }
 }
