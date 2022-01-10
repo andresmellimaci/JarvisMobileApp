@@ -1,0 +1,20 @@
+{
+    "dashboard": {
+        "deals": {
+            "inUw": "20",
+            "pending": "10",
+            "approved": "5",
+            "declined": "2"
+        },
+        "merchants": {
+            "total": "235",
+            "active": "208",
+            "inactive": "27"
+        },
+        "totalVolume": "50975,42",
+        "transactionCount": "28133",
+        "refunds": "61606",
+        "chargebacks": "5986",
+        "currentResiduals": "605986"
+    }
+}
